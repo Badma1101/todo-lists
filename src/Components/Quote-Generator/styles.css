@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.title{
+    color: green;
+}
+.subtitle{
+    color: white;
+}
+
+.quote-bg{
+    background-color: rgb(205, 205, 205);
+    color:black;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px;
+    margin:20px;
+}
+
+.author{
+    color:black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap:10px;
+}
+
+.prev,
+.next,
+.fb{
+    padding: 10px;
+    background-color: green;
+    color:white;
+    margin:5px;
+}

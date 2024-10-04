@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+    background-color: rgb(213, 226, 226);
+    height: 50%;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 10%;
+}
+
+.title{
+    margin: 10px;
+    color: brown;
+    font-size: 30px;
+    font-style: oblique;
+}
+.coins{  
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    background-color: rgb(181, 181, 181);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 50px;
+}
+.btn{
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    border:1px solid rgb(206, 206, 206);
+    background-color: rgb(192, 182, 202);
+    cursor: pointer;
+}
+.reset{
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    border:1px solid rgb(206, 206, 206);
+    background-color: rgb(192, 182, 202);
+    cursor: pointer;
+}
+p{
+    line-height: 30px;
+    margin-bottom: 15px;
+}

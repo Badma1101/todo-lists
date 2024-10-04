@@ -1,0 +1,19 @@
+*{
+    margin:10px;
+    padding: 10Px;
+}
+
+
+.container{
+   font-size: large;
+   width:50%;
+   height: 50%;
+   
+}
+
+.btn{
+    background-color: brown;
+    padding: 10px;
+    color: beige;
+    gap:10px;
+}

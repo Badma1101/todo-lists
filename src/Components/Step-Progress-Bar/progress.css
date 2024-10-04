@@ -1,0 +1,52 @@
+h1{
+    margin:20px;
+}
+.step{
+    display:flex;
+    justify-content: space-between ;
+    width: 80%;
+    align-items: center;
+    margin:auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.step{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #2020c2;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.step.active{
+    background-color: greenyellow;
+    color: white;
+}
+
+.step-buttons-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:10px;
+margin:20px 0;
+}
+
+.step-buttons-wrapper button{
+    padding: 12px 20px;
+    background-color: #f3f800;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.step-buttons-wrapper button:disabled{
+    color: black;
+    opacity: 0.65;
+    cursor:not-allowed;
+}
